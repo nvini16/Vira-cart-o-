@@ -240,7 +240,7 @@
  <body class="h-full overflow-auto">
   <div id="app" class="min-h-full w-full bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 p-4 md:p-6"><!-- Header -->
    <div class="text-center mb-6">
-    <h1 id="main-title" class="text-3xl md:text-4xl font-extrabold text-white mb-2 drop-shadow-lg">🎯 Dinâmica da Equipe</h1>
+    <h1 id="main-title" class="text-3xl md:text-4xl font-extrabold text-white mb-2 drop-shadow-lg"> Dinâmica da Equipe</h1>
     <p id="main-subtitle" class="text-purple-200 text-lg">Jogo de Memória Quebra-Gelo</p>
    </div><!-- Stats Bar -->
    <div class="flex justify-center gap-4 md:gap-8 mb-6 flex-wrap">
@@ -262,13 +262,13 @@
    <div class="max-w-2xl mx-auto">
     <div class="bg-white/10 backdrop-blur-sm rounded-3xl p-5 mb-4">
      <div class="flex items-center justify-between mb-4">
-      <h2 class="text-xl font-bold text-white flex items-center gap-2">💬 Pergunta para Conversa</h2><button id="new-question-btn" class="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white px-4 py-2 rounded-full text-sm font-semibold transition-all transform hover:scale-105 shadow-lg"> Nova Pergunta </button>
+      <h2 class="text-xl font-bold text-white flex items-center gap-2"> Pergunta para Conversa</h2><button id="new-question-btn" class="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white px-4 py-2 rounded-full text-sm font-semibold transition-all transform hover:scale-105 shadow-lg"> Nova Pergunta </button>
      </div>
      <div id="question-display" class="question-card bg-gradient-to-r from-indigo-500/30 to-purple-500/30 rounded-2xl p-4 border border-white/20">
       <p id="current-question" class="text-white text-lg md:text-xl text-center font-medium">Clique em "Nova Pergunta" para começar!</p>
      </div>
     </div><!-- All Questions List -->
-    <details class="bg-white/10 backdrop-blur-sm rounded-3xl overflow-hidden"><summary class="p-4 text-white font-semibold cursor-pointer hover:bg-white/5 transition-colors flex items-center gap-2"> 📋 Ver Todas as 10 Perguntas </summary>
+    <details class="bg-white/10 backdrop-blur-sm rounded-3xl overflow-hidden"><summary class="p-4 text-white font-semibold cursor-pointer hover:bg-white/5 transition-colors flex items-center gap-2">  Ver Todas as 10 Perguntas </summary>
      <div id="questions-list" class="p-4 pt-0 space-y-2"><!-- Questions will be listed here -->
      </div>
     </details>
@@ -290,7 +290,7 @@
   <script>
     // Default configuration
     const defaultConfig = {
-      game_title: "🎯 Dinâmica da Equipe",
+      game_title: " Dinâmica da Equipe",
       subtitle: "Jogo de Memória Quebra-Gelo",
       background_color: "#312e81",
       card_color: "#6366f1",
@@ -318,16 +318,16 @@
 
     // Conversation starter questions
     const questions = [
-      "Qual emoji melhor descreve sua manhã hoje? 🌅",
-      "Se você fosse um emoji, qual seria e por quê? 🤔",
-      "Qual é uma habilidade de trabalho que você se orgulha de ter desenvolvido? 💪",
-      "Compartilhe uma vitória pequena que você teve esta semana 🏆",
-      "Qual foi o melhor conselho profissional que você já recebeu? 💎",
-      "Se pudesse aprender qualquer habilidade instantaneamente, qual seria? ⚡",
-      "O que te motiva a dar o seu melhor no trabalho? 🔥",
-      "Qual é o seu \"superpoder\" secreto no trabalho? 🦸",
-      "Descreva seu ambiente de trabalho ideal em 3 palavras 🏠",
-      "Qual conquista da equipe te deixou mais orgulhoso(a)? 🌈"
+      "Qual palavra melhor descreve sua manhã hoje? ",
+      "Se você fosse um objeto, qual seria e por quê? ",
+      "Qual é uma habilidade que você se orgulha de ter desenvolvido? ",
+      "Compartilhe uma vitória pequena que você teve esta semana ",
+      "Qual foi o melhor conselho de vida que você já recebeu? ",
+      "Se pudesse aprender qualquer habilidade instantaneamente, qual seria? ",
+      "Qual seu maior medo de infância? ",
+      "Qual é o seu \"superpoder\" secreto na escola? ",
+      "Descreva seu ambiente de trabalho ideal em 3 palavras.",
+      "Qual conquista da sua vida te deixou mais orgulhoso(a)? "
     ];
 
     // Initialize the game
